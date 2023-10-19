@@ -1,7 +1,7 @@
 .headerwrapper {
 
     width: 100%;
-    background-color: black;
+    background-color:#96671f;
     height: 15vh;
     display: flex;
     justify-content: space-between;
@@ -24,34 +24,56 @@
 
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.icon{
+.icon {
     font-size: 60px;
-    border: 1px solid red;
     height: 90px;
     width: 100px;
-    border-radius: 50%; 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 
 }
 
-
-
-.hero{
-    height: 85vh;
-    background-color: blue;
+.hero {
+    height: 100vh;
+    background:url(/img/pexels-andrea-piacquadio-974911.jpg);
+    background-position:top center;
+    background-size: cover;
+    position: relative;
+   
 
 }
 
-.logotext{
+.logotext {
     font-family: 'Dancing Script', cursive;
+
+
+}
+
+.logotext {
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.title{
+position: absolute;
+top: 40%;
+left: 10%;
+}
+
+.cta{
+top: 42%;
+left: 10%;
+position: absolute;
 
 
 }

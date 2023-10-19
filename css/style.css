@@ -1,6 +1,6 @@
 .headerwrapper {
   width: 100%;
-  background-color: black;
+  background-color: #96671f;
   height: 15vh;
   display: flex;
   justify-content: space-between;
@@ -24,22 +24,41 @@
 
 .icon {
   font-size: 60px;
-  border: 1px solid red;
   height: 90px;
   width: 100px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .hero {
-  height: 85vh;
-  background-color: blue;
+  height: 100vh;
+  background: url(/img/pexels-andrea-piacquadio-974911.jpg);
+  background-position: top center;
+  background-size: cover;
+  position: relative;
 }
 
 .logotext {
   font-family: "Dancing Script", cursive;
+}
+
+.logotext {
+  font-family: "Dancing Script", cursive;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.cta {
+  top: 42%;
+  left: 10%;
+  position: absolute;
 }
 
 * {
@@ -50,8 +69,8 @@
 
 body {
   color: white;
+  background: #924c0e;
+  min-height: 200vh;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
