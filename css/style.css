@@ -10,10 +10,17 @@
 
 .navUL {
   display: flex;
+  font-family: "Roboto", sans-serif;
+  gap: 20PX;
+  font-size: 120%;
 }
 
 .navLI {
   list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+.navLI a {
+  color: white;
 }
 
 .logo {
@@ -43,6 +50,7 @@
 
 .logotext {
   font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 .logotext {
@@ -53,12 +61,18 @@
   position: absolute;
   top: 40%;
   left: 10%;
+  font-size: 300%;
 }
 
 .cta {
-  top: 42%;
+  top: 45%;
   left: 10%;
   position: absolute;
+  background: #D4AF37;
+  width: 200px;
+  border: none;
+  height: 50px;
+  font-size: 180%;
 }
 
 * {
@@ -69,8 +83,13 @@
 
 body {
   color: white;
-  background: #924c0e;
+  background: white;
   min-height: 200vh;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

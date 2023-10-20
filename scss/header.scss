@@ -1,7 +1,7 @@
 .headerwrapper {
 
     width: 100%;
-    background-color:#96671f;
+    background-color: #96671f;
     height: 15vh;
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,9 @@
 
 .navUL {
     display: flex;
-
+    font-family: 'Roboto', sans-serif;
+    gap: 20PX;
+    font-size: 120%;
 
 
 }
@@ -19,6 +21,11 @@
 
 .navLI {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+    a {
+        color: white;
+    }
 
 
 
@@ -44,11 +51,18 @@
 
 .hero {
     height: 100vh;
-    background:#96671f,url(/img/pexels-andrea-piacquadio-974911.jpg);
-    background-position:top center;
+    background: url(/img/pexels-andrea-piacquadio-974911.jpg);
+    background-position: top center;
     background-size: cover;
     position: relative;
-   
+
+
+}
+
+.logotext {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -58,22 +72,21 @@
 
 }
 
-.logotext {
-    font-family: 'Dancing Script', cursive;
-
-
+.title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 300%;
 }
 
-.title{
-position: absolute;
-top: 40%;
-left: 10%;
-}
-
-.cta{
-top: 42%;
-left: 10%;
-position: absolute;
-
+.cta {
+    top: 45%;
+    left: 10%;
+    position: absolute;
+    background: #D4AF37;
+    width: 200px;
+    border: none;
+    height: 50px;
+    font-size: 180%;
 
 }
