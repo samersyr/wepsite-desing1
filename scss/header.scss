@@ -76,15 +76,15 @@
     position: absolute;
     top: 40%;
     left: 10%;
-    font-size: 300%;
+    font-size: 400%;
 }
 .heading2{
     font-weight: 400;
-font-size: 200%;
+font-size: 300%;
 }
 
 .cta {
-    top: 45%;
+    top: 48%;
     left: 10%;
     position: absolute;
     background: #D4AF37;
@@ -105,7 +105,7 @@ font-size: 200%;
 }
 
 
-.cta:active,cta--section:active {
+.cta:active,.cta--section:active {
     background: darken(#D4AF37, 10%);
     border-right: 5px solid #D4AF37;
     border-bottom: 5px solid#D4AF37;
@@ -114,7 +114,6 @@ font-size: 200%;
 }
 
 .cta--section{
-    position: absolute;
     background: #D4AF37;
     width: 200px;
     border: none;
@@ -126,55 +125,29 @@ font-size: 200%;
 
 }
 
-
-
-@media screen and (max-width:1000px) {
-
-    body {
-        padding: 0%;
-
-    }
-
-    .hero {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 10%;
-        gap: 20px;
-    }
-
-    .navUL {
-        display: none;
-
-    }
-
-    .title {
-
-        position: relative;
-        font-size: 200%;
-        top: auto;
-        left: auto;
-    }
-}
-
-
-
 .waarom-wij-over-ons {
     display: flex;
     color: black;
+    background: white;
+    
 }
 
 .waarom-wij-text {
     height: 500px;
     width: 50%;
-    
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 
 }
 
 .waarom-wij-afbeelding {
     height: 500px;
     width: 50%;
-    background: blue;
+    
 
 
 
@@ -186,5 +159,70 @@ font-size: 200%;
     height: 100%;
     object-fit: cover;
 
+
+}
+
+.paragraaf{
+    width: 56ch;
+
+}
+
+
+@media screen and (max-width:1000px) {
+
+    body {
+        padding: 0%;
+        font-size:80% ;
+
+
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10%;
+        gap: 20px;
+
+    }
+
+    .navUL {
+        display: none;
+
+    }
+
+    .title {
+
+        position: relative;
+        font-size: 300%;
+        top: auto;
+        left: auto;
+    }
+    .cta{
+        width: 150px;
+        height: 50px;
+        font-size: 100%;
+        padding: 0;
+        position: relative;
+        top: auto;
+        left: auto;
+
+
+    }
+
+    .heading2{
+        font-size: 200%;
+
+    }
+
+
+    .waarom-wij-over-ons{
+flex-direction: column;
+    }
+
+    .waarom-wij-afbeelding{
+        width: 100%;
+
+    }
 
 }
