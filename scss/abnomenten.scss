@@ -1,0 +1,30 @@
+.abbnomenten-section{
+    height: 100vh;
+    background: white;
+}
+.headingblack{
+    color: black;
+    text-align: center;
+}
+
+.abbnomenten{
+  display: flex;
+  list-style: none;
+justify-content: center;
+gap: 50px;
+
+
+}
+
+.abbnoment{
+    height: 600px;
+    width: 400px;
+    background:#96671f ;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 5px;
+
+
+
+}
