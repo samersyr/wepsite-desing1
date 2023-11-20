@@ -101,7 +101,9 @@
 
 
 .cta:hover,
-.cta--section:hover {
+.cta--section:hover
+
+{
     cursor: pointer;
 
 
@@ -109,7 +111,8 @@
 
 
 .cta:active,
-.cta--section:active {
+.cta--section:active
+ {
     background: darken(#D4AF37, 10%);
     border-right: 5px solid #D4AF37;
     border-bottom: 5px solid#D4AF37;

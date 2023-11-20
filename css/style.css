@@ -84,12 +84,14 @@
 }
 
 .cta:hover,
-.cta--section:hover {
+.cta--section:hover,
+.cta--section1:hover {
   cursor: pointer;
 }
 
 .cta:active,
-.cta--section:active {
+.cta--section:active,
+.cta--section1:active {
   background: #b29126;
   border-right: 5px solid #D4AF37;
   border-bottom: 5px solid #D4AF37;
@@ -256,9 +258,37 @@ a {
   border-bottom-left-radius: 5px;
 }
 
+.cta:hover,
+.cta--section:hover {
+  cursor: pointer;
+}
+
+.cta:active,
+.cta--section:active {
+  background: #b29126;
+  border-right: 5px solid #D4AF37;
+  border-bottom: 5px solid #D4AF37;
+}
+
+.cta--section {
+  border-radius: 5px;
+  background: #D4AF37;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border-right: 5px solid #b29126;
+  border-bottom: 5px solid #b29126;
+}
+
 .abbnomenten-section {
-  height: 100vh;
+  min-height: 1000px;
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .headingblack {
@@ -270,17 +300,72 @@ a {
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .abbnoment {
   height: 600px;
   width: 400px;
-  background: #96671f;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  padding: 20px;
+}
+
+.point {
+  width: 100%;
+  color: black;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  height: 90%;
+  padding: 40px;
+  font-size: 120%;
+}
+
+.noticeMy {
+  background: white;
+}
+
+.noticeMy .point {
+  border-bottom: solid 1px black;
+  color: black;
+}
+
+.abbnoment .wrapper {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 70%;
+}
+
+.cta--section1 {
+  background: transparent;
   border-radius: 5px;
+  width: 200px;
+  border: none;
+  height: 70px;
+  font-size: 180%;
+  border: solid 2px black;
+  color: black;
+}
+
+.cta--section1:active {
+  background: #D4AF37;
+  color: white;
+}
+
+@media screen and (widt-max: 1200px) {
+  .abbnomenten {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
