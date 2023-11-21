@@ -70,7 +70,7 @@
 }
 
 .cta {
-  top: 50%;
+  top: 55%;
   left: 10%;
   border-radius: 5px;
   position: absolute;
@@ -84,14 +84,12 @@
 }
 
 .cta:hover,
-.cta--section:hover,
-.cta--section1:hover {
+.cta--section:hover {
   cursor: pointer;
 }
 
 .cta:active,
-.cta--section:active,
-.cta--section1:active {
+.cta--section:active {
   background: #b29126;
   border-right: 5px solid #D4AF37;
   border-bottom: 5px solid #D4AF37;
